@@ -1,5 +1,5 @@
 plot1 <- function () {
-        setwd("~/GitHub/Exploratory Data Analysis/Week 1")
+        setwd("~/GitHub/Exploratory-Data-Analysis-Project-1")
         ## read the UCI data
         labels <- read.table("household_power_consumption.txt", header = FALSE, sep = ";", 
                              nrows = 1)
